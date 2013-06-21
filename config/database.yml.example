@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: file_server_d
+  pool: 5
+  username: file_server
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: file_server_t
+  pool: 5
+  username: file_server
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: file_server
+  pool: 5
+  username: file_server
+  password:
