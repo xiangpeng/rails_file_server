@@ -3,8 +3,9 @@ development:
   encoding: unicode
   database: file_server_d
   pool: 5
+  host:     localhost
   username: file_server
-  password:
+  password: 
 
 test:
   adapter: postgresql

@@ -21,8 +21,15 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'formtastic'
 gem 'grape'
 gem "paperclip"
+
+group :development do
+  gem 'thin'
+  gem 'pry'
+  gem 'pry-debugger'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
