@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 gem 'formtastic'
 gem 'grape'
-gem "paperclip"
+gem "paperclip", '~> 3.4.2'
 
 group :development do
   gem 'thin'
