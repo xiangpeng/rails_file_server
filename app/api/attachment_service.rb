@@ -40,7 +40,7 @@ module AttachmentService
         @attachment.table_name = params[:table_name]
         @attachment.table_id = params[:table_id]
         @attachment.save!
-        {status: 'OK', id: @attachment.id, url: @attachment.attach.url, thumb_url: @attachment.attach.url(:thumb)}
+        {status: 'OK', id: @attachment.id, url: @attachment.attach.url, thumb_url: @attachment.attach.url(:thumb), original_filename: @attachment.attach_file_name.to_s}
       rescue Exception => e
         puts "****************   " + e.message + "   ****************"
         {status: 'ERROR', message: e.message}
