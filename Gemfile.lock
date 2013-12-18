@@ -31,6 +31,7 @@ GEM
     arel (3.0.2)
     backports (3.3.2)
     builder (3.0.4)
+    chronic (0.10.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
@@ -160,6 +161,9 @@ GEM
     virtus (0.5.5)
       backports (~> 3.3)
       descendants_tracker (~> 0.0.1)
+    whenever (0.8.4)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
@@ -178,3 +182,4 @@ DEPENDENCIES
   thin
   uglifier (>= 1.0.3)
   unicorn
+  whenever
